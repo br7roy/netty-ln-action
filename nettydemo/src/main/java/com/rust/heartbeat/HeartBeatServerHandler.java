@@ -1,7 +1,3 @@
-/**
- * 壹钱包
- * Copyright (c) 2013-2018 壹钱包版权所有.
- */
 package com.rust.heartbeat;
 
 //import org.slf4j.Logger;

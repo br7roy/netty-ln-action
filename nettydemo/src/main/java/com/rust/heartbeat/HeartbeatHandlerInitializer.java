@@ -1,11 +1,11 @@
 package com.rust.heartbeat;
 
-import java.util.concurrent.TimeUnit;
-
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.handler.timeout.IdleStateHandler;
+
+import java.util.concurrent.TimeUnit;
 
 
 /**
