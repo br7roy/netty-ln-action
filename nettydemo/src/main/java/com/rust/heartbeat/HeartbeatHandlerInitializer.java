@@ -1,15 +1,12 @@
-/**
- * 壹钱包
- * Copyright (c) 2013-2018 壹钱包版权所有.
- */
 package com.rust.heartbeat;
+
+import java.util.concurrent.TimeUnit;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.handler.timeout.IdleStateHandler;
 
-import java.util.concurrent.TimeUnit;
 
 /**
  * FileName: HeartbeatHandlerInitializer
